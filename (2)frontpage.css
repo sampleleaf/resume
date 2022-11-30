@@ -1,0 +1,41 @@
+.frontpage-align{
+    width: 350px;
+    margin: 0 auto; /*版面置中*/
+    padding-right: 110px; /*文本位置(靠左對齊home)*/
+    padding-top: 70px;
+}
+
+.frontpage-align > h1{
+    font-size: 65px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 12px;
+    line-height: 50px;
+}
+
+.frontpage-align > p{
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 4.8px;
+    color: white;
+}
+
+@media (max-width : 495px){
+    .frontpage-align{
+        padding-right: 0px;
+        padding-top: 170px;
+    }
+}
+
+@media (max-width : 425px){
+    .frontpage-align{
+        padding-right: 0px;
+        padding-top: 170px;
+        width: 290px;
+    }
+    .frontpage-align > h1{
+        font-size: 40px;
+    }
+    .frontpage-align > p{
+        font-size: 20px;
+    }
+}

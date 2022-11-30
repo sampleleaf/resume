@@ -1,0 +1,163 @@
+.contact{
+    box-sizing: border-box;
+    width: 940px;
+    height: 631px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0px auto 250px; /*版面置中*/
+    padding: 70px 100px;
+    border-radius: 50%;
+}
+
+.contact > h3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact > p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.hoverimage1 > img{
+    padding: 0px 50px;
+    transition: height 2s;
+}
+
+.hoverimage1 img:hover{
+    height: 60px;
+}
+
+.hoverimage2 > img{
+    padding: 0px 50px;
+    transition: height 2s;
+}
+
+.hoverimage2 img:hover{
+    height: 40px;
+}
+
+.back{
+    width: 150px;
+    margin: 40px auto 0;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: black;
+}
+
+.back a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.back a:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.back a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact > div a:link{
+    text-decoration: none;
+}
+
+@media (max-width : 965px){
+    .contact{
+        width: 830px;
+        padding: 60px 100px 75px;
+    }
+}
+
+@media (max-width : 855px){
+    .contact{
+        width: 700px;
+        padding: 60px 100px 75px;
+    }
+}
+
+@media (max-width : 775px){
+    .contact{
+        width: 580px;
+        padding: 60px 100px 0px;
+    }
+    .contact h3{
+        text-align: center;
+    }
+    .hoverimage1 img:hover{
+        height: 50px;
+    }
+    .hoverimage2 img:hover{
+        height: 33px;
+    }
+}
+
+@media (max-width : 655px){
+    .contact{
+        width: 500px;
+        padding: 60px 60px 0px;
+    }
+    .hoverimage1 img:hover{
+        height: 50px;
+    }
+    .hoverimage2 img:hover{
+        height: 33px;
+    }
+}
+
+@media (max-width : 580px){
+    .contact{
+        width: 400px;
+        padding: 60px 60px 0px;
+    }
+    .hoverimage1 img{
+        padding: 0;
+    }
+    .hoverimage2 img{
+        padding: 0;
+    }
+    .hoverimage1 img:hover{
+        height: 50px;
+    }
+    .hoverimage2 img:hover{
+        height: 33px;
+    }
+}
+
+@media (max-width : 425px){
+    .contact{
+        width: 320px;
+        border-radius: 10px;
+        padding: 50px 20px 0px;
+    }
+    .hoverimage1 img{
+        padding: 0;
+    }
+    .hoverimage2 img{
+        padding: 0;
+    }
+    .hoverimage1 img:hover{
+        height: 50px;
+    }
+    .hoverimage2 img:hover{
+        height: 33px;
+    }
+}
+
+@media (max-width : 340px){
+    .contact{
+        width: 300px;
+        padding: 50px 10px 0;
+    }
+}

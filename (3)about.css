@@ -1,0 +1,150 @@
+.about{
+    position: relative;
+}
+
+.about h3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    color: rgba(242, 245, 247, 0);
+    animation-name: word;
+    animation-duration: 0.8s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes word{
+    from{color: rgba(242, 245, 247, 0);}
+    to{color: rgba(242, 245, 247, 1);}
+}
+
+.about img{
+    display: block;
+    width: 850px;
+    height: auto;
+    margin: 130.5px auto 0;
+    border-radius: 50px;
+}
+
+@media (max-width : 875px){
+    .about img{
+        width: 730px;
+    }
+    .about h3{
+        font-size: 73px;
+    }
+}
+
+@media (max-width : 755px){
+    .about img{
+        width: 630px;
+    }
+    .about h3{
+        font-size: 63px;
+    }
+}
+
+@media (max-width : 655px){
+    .about img{
+        width: 580px;
+    }
+    .about h3{
+        font-size: 58px;
+    }
+}
+
+@media (max-width : 605px){
+    .about img{
+        width: 555px;
+    }
+    .about h3{
+        font-size: 55.5px;
+    }
+}
+
+@media (max-width : 580px){
+    .about img{
+        width: 470px;
+    }
+    .about h3{
+        font-size: 47px;
+    }
+}
+
+@media (max-width : 495px){
+    .about img{
+        width: 400px;
+        margin-top: 30.5px;
+    }
+    .about h3{
+        font-size: 40px;
+    }
+}
+
+@media (max-width : 495px){
+    .about img{
+        width: 400px;
+        margin-top: 30.5px;
+    }
+    .about h3{
+        font-size: 40px;
+    }
+}
+
+@media (max-width : 425px){
+    .about img{
+        width: 300px;
+        margin-top: 30.5px;
+    }
+    .about h3{
+        font-size: 30px;
+    }
+}
+
+
+/* 可自我介紹
+.about{
+    box-sizing: border-box;
+    width: 850px;
+    height: 670px;
+    background-color: rgba(51, 59, 80, 1.0);
+    margin: 150px auto; 版面置中
+    text-align: justify;
+}
+
+.about > img{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    padding-top: 100px;
+}
+
+.about > p{
+    padding: 50px 200px 0px 200px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    line-height: 2.5em;
+}
+
+.about > button{
+    display: block;
+    margin: 70px auto;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 214, 07);
+    width: 220px;
+    height: 48px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    transition: background-color 0.5s;
+}
+
+.about > button:hover{
+    background-color: rgb(0, 214, 07);
+}

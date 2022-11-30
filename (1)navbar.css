@@ -1,0 +1,82 @@
+.flex-outline{
+    background-color: rgb(65, 79, 156);
+    box-shadow: 0px 10px 8px rgba(50, 65, 88, 1);
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.flex-container > div{
+    padding: 20px 20px;
+}
+
+.flex-container > div a{
+    color: rgb(179, 179, 179);
+    transition: color 0.2s;
+}
+
+.flex-container > div a:link{
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+.flex-container > div a:visited{
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+.flex-container > div a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*w3s.css.rwd.icon*/
+.flex-container .icon{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .flex-container div:not(:first-child) {display: none;}
+    .flex-container{justify-content: flex-start;}
+    .flex-container div.icon {
+      display: block;
+      position: absolute;
+      right: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+  .flex-container.responsive {
+    position: relative;
+    flex-direction: column;
+  }
+  .flex-container.responsive .icon {
+    position: absolute;
+    right: 0;
+  }
+  .flex-container.responsive div{
+    display: block;
+  }
+  .flex-container.responsive div a{
+    padding:20px 100% 20px 0px;
+  }
+  .flex-container > div:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 102, 199);
+    text-decoration: none;
+  }
+}
+
+
+
+
+

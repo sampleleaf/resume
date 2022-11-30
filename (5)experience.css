@@ -1,0 +1,295 @@
+#ex{
+    position: absolute;
+    opacity: 0;
+    top: -100px;
+}
+
+.experience{
+    margin: 0px auto;
+    width: 500px;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.experience > h3{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.dotalign0{
+    width: 14px;
+    height: 0px;
+    margin: 0 auto;
+    padding-top: 50px;
+    stroke:rgb(0,214,70);
+    stroke-width: 2;
+}
+
+.dotalign{
+    width: 14px;
+    height: 14px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 200px;
+    fill:rgb(0, 214, 70);
+}
+
+.dot{
+    width: 14px;
+    height: 14px;
+}
+
+.ex1{
+    position: absolute;
+    top: 190px; /*207*/
+    left: 380px;
+    font-family: 'Work Sans', sans-serif;
+    white-space: nowrap;
+    animation-name: ex1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.ex1 > p:nth-child(1){
+    color: rgb(0, 214, 70);
+}
+
+.ex1 > p:nth-child(2){
+    color: white;
+}
+
+.ex1 dt, dd{
+    color: rgb(190,199,213);
+}
+
+@keyframes ex1{
+    from{opacity: 0; }
+    to{opacity: 1.0;}
+}
+
+.ex2{
+    position: absolute;
+    top: 403px;
+    right: 380px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: right;
+    white-space: nowrap;
+    animation-name: ex2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.ex2 > p:nth-child(1){
+    color: rgb(0, 214, 70);
+}
+
+.ex2 > p:nth-child(2){
+    color: white;
+}
+
+.ex2 dt, dd{
+    text-align: left;
+    color: rgb(190,199,213);
+}
+
+@keyframes ex2{
+    from{opacity: 0; }
+    to{opacity: 1.0;}
+}
+
+.ex3{
+    position: absolute;
+    top: 617px;
+    left: 380px;
+    font-family: 'Work Sans', sans-serif;
+    white-space: nowrap;
+    animation-name: ex3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.ex3 > p:nth-child(1){
+    color: rgb(0, 214, 70);
+}
+
+.ex3 > p:nth-child(2){
+    color: white;
+}
+
+.ex3 dt, dd{
+    color: rgb(190,199,213);
+}
+
+@keyframes ex3{
+    from{opacity: 0; }
+    to{opacity: 1.0;}
+}
+
+.ex4{
+    position: absolute;
+    top: 831px;
+    right: 380px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: right;
+    width: 232px;
+    animation-name: ex4;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.ex4 > p:nth-child(1){
+    color: rgb(0, 214, 70);
+}
+
+.ex4 > p:nth-child(2){
+    color: white;
+}
+
+.ex4 dt, .ex4 dd{
+    text-align: left;
+    color: rgb(190,199,213);
+}
+
+@keyframes ex4{
+    from{opacity: 0; }
+    to{opacity: 1.0;}
+}
+
+.ex5{
+    position: absolute;
+    top: 1045px;
+    left: 380px;
+    font-family: 'Work Sans', sans-serif;
+    white-space: nowrap;
+    animation-name: ex5;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.ex5 > p:nth-child(1){
+    color: rgb(0, 214, 70);
+}
+
+.ex5 > p:nth-child(2){
+    color: white;
+}
+
+.ex5 dt, dd{
+    color: rgb(190,199,213);
+}
+
+@keyframes ex5{
+    from{opacity: 0; }
+    to{opacity: 1.0;}
+}
+
+@media (max-width : 1150px) {
+    .ex1{
+        left: 330px;
+    }
+    .ex2{
+        right: 330px;
+    }
+    .ex3{
+        left: 330px;
+    }
+    .ex4{
+        right: 330px;
+    }
+    .ex5{
+        left: 330px;
+    }
+}
+
+@media (max-width : 1050px) {
+    .ex1{
+        left: 290px;
+    }
+    .ex2{
+        right: 290px;
+    }
+    .ex3{
+        left: 290px;
+    }
+    .ex4{
+        right: 290px;
+    }
+    .ex5{
+        left: 290px;
+    }
+}
+
+@media (max-width : 775px){
+    .experience{
+        height: 1700px;
+    }
+    .dotalign0{
+        stroke:rgba(0, 214, 71, 0);
+    }
+    .dotalign{
+        fill:rgba(0, 214, 71, 0);
+    }
+    .ex1{
+        left: 50px;
+    }
+    .ex2{
+        left: 50px;
+        top: 503px;
+    }
+    .ex3{
+        left: 50px;
+        top: 759px;
+    }
+    .ex4{
+        text-align: left;
+        left: 50px;
+        top: 1103px;
+    }
+    .ex5{
+        left: 50px;
+        top: 1301px;
+    }
+}
+
+@media (max-width : 580px){
+    .experience{
+        width: 400px;
+    }
+    .experience > h3{
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+}
+
+@media (max-width : 455px){
+    .experience{
+        width: 300px;
+    }
+    .experience > h3{
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+    .ex1{
+        left: 0px;
+    }
+    .ex2{
+        left: 0px;
+        top: 503px;
+    }
+    .ex3{
+        left: 0px;
+        top: 759px;
+    }
+    .ex4{
+        text-align: left;
+        left: 0px;
+        top: 1103px;
+    }
+    .ex5{
+        left: 0px;
+        top: 1301px;
+    }
+}

@@ -1,0 +1,110 @@
+body{
+    background-image: linear-gradient(to bottom, rgba(50, 65, 88, 0.7), rgba(50, 65, 88, 0.7)) 
+                    , url('picture/pexels-james-wheeler-1598073.jpg'), url('picture/work.jpg') , url('picture/3Dphoto.png');
+    background-repeat: no-repeat;
+    background-position: 0 0, 50% 1837.75px, 50% 890px, right top;
+    background-attachment: fixed, scroll, scroll, scroll;
+    margin: 0;
+}
+@media(max-width: 345px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 350px auto;
+        background-position: 0 0, 50% 1283px, 50% 620px, 10px 1%;
+    }
+}
+
+@media(min-width: 345px) and (max-width: 365px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 350px auto;
+        background-position: 0 0, 50% 1283px, 50% 620px, 20px 1%;
+    }
+}
+
+@media(min-width: 365px) and (max-width: 385px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 350px auto;
+        background-position: 0 0, 50% 1283px, 50% 620px, 30px 1%;
+    }
+}
+
+@media(min-width: 385px) and (max-width: 405px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 350px auto;
+        background-position: 0 0, 50% 1283px, 50% 620px, 40px 1%;
+    }
+}
+
+@media(min-width: 405px) and (max-width: 425px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 350px auto;
+        background-position: 0 0, 50% 1283px, 50% 620px, 50px 1%;
+    }
+}
+
+@media(min-width: 426px) and (max-width: 454px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 350px auto;
+        background-position: 0 0, 50% 1430px, 50% 731px, 100px 1%;
+    }
+}
+
+@media(min-width: 455px) and (max-width: 495px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 350px auto;
+        background-position: 0 0, 50% 1486px, 50% 731px, 120px 1%;
+    }
+}
+
+@media(min-width: 496px) and (max-width: 581px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 350px auto;
+        background-position: 0 0, 50% 1535px, 50% 755.75px, 100% 1%;
+    }
+}
+
+@media(min-width: 581px) and (max-width: 606px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 350px auto;
+        background-position: 0 0, 50% 1630px, 50% 785.75px, 108% 1%;
+    }
+}
+
+@media(min-width: 606px) and (max-width: 656px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 400px auto;
+        background-position: 0 0, 50% 1647.5px, 50% 794.5px, right 1%;
+    }
+}
+
+@media(min-width: 656px) and (max-width: 756px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 400px auto;
+        background-position: 0 0, 50% 1682.5px, 50% 812px, right 1%;
+    }
+}
+
+@media(min-width: 756px) and (max-width: 875px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 400px auto;
+        background-position: 0 0, 50% 1753px, 50% 847.75px, right 1%;
+    }
+}
+
+
+@media(min-width: 875px) and (max-width: 1000px){
+    body{
+        background-size: 100% 100%, auto auto, auto auto, 400px auto;
+        background-position: 0 0, 50% 1837.75px, 50% 890px, right 1%;
+    }
+}
+
+@media(min-width: 1550px){
+    body{
+        background-size: 100% 100%, 100% auto, 100% auto, auto auto;
+    }
+}
+
+html {
+    scroll-behavior: smooth;/*href scroll*/
+}
+

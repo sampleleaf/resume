@@ -1,0 +1,349 @@
+#pro{
+    opacity: 0; 
+    position: relative;
+}
+
+.skills > h3{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.skills > p{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+    line-height: 0px;
+    color: white;
+    white-space: nowrap;
+}
+
+.progressbar{
+    margin: 100px auto;
+    width: 550px;
+    background-color: none;
+    position: relative;
+}
+
+.progressbar > div:nth-child(1){
+    /*width: 550px; 100%的長度*/
+    height: 12px;
+    margin: 35px 100px 35px 0px;
+    animation-name: progressbar1;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.progressbar > div:nth-child(2){
+    /*width: 550px; 100%的長度*/
+    height: 12px;
+    margin: 35px 100px 35px 0px;
+    animation-name: progressbar2;
+    animation-duration: 1s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+.progressbar > div:nth-child(3){
+    /*width: 550px; 100%的長度*/
+    height: 12px;
+    margin: 35px 100px 35px 0px;
+    animation-name: progressbar3;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+}
+
+.progressbar > div:nth-child(4){
+    /*width: 550px; 100%的長度*/
+    height: 12px;
+    margin: 35px 100px 35px 0px;
+    animation-name: progressbar4;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+.progressbar > div:nth-child(5){
+    /*width: 550px; 100%的長度*/
+    height: 12px;
+    margin: 35px 100px 35px 0px;
+    animation-name: progressbar5;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressbar1{
+    from{width: 0; }
+    to{width: 544.5px; background-color: rgb(0, 214, 70);}
+}
+
+@keyframes progressbar2{
+    from{width: 0; }
+    to{width: 495px; background-color: rgb(0, 214, 70);}
+}
+
+@keyframes progressbar3{
+    from{width: 0; }
+    to{width: 275px; background-color: rgb(0, 214, 70);}
+}
+
+@keyframes progressbar4{
+    from{width: 0; }
+    to{width: 440px; background-color: rgb(0, 214, 70);}
+}
+
+@keyframes progressbar5{
+    from{width: 0; }
+    to{width: 440px; background-color: rgb(0, 214, 70);}
+}
+
+.bartitle{
+    position: absolute;
+    top: -4px;
+    left: -295px;
+}
+
+.bartitle > div{
+    color: aliceblue;
+    text-align: right;
+    padding-bottom: 28px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.barpercent{
+    position: absolute;
+    top: -4px;
+    right: -65px;
+}
+
+.barpercent > div:nth-child(1){
+    color: rgba(50, 65, 88, 0);
+    text-align: left;
+    padding-bottom: 28px;
+    font-family: 'Work Sans', sans-serif;
+    animation-name: percent1;
+    animation-delay: 0.6s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.barpercent > div:nth-child(2){
+    color: rgba(50, 65, 88, 0);
+    text-align: left;
+    padding-bottom: 28px;
+    font-family: 'Work Sans', sans-serif;
+    animation-name: percent2;
+    animation-delay: 0.8s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.barpercent > div:nth-child(3){
+    color: rgba(50, 65, 88, 0);
+    text-align: left;
+    padding-bottom: 28px;
+    font-family: 'Work Sans', sans-serif;
+    animation-name: percent3;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.barpercent > div:nth-child(4){
+    color: rgba(50, 65, 88, 0);
+    text-align: left;
+    padding-bottom: 28px;
+    font-family: 'Work Sans', sans-serif;
+    animation-name: percent4;
+    animation-delay: 1.2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.barpercent > div:nth-child(5){
+    color: rgba(50, 65, 88, 0);
+    text-align: left;
+    padding-bottom: 28px;
+    font-family: 'Work Sans', sans-serif;
+    animation-name: percent5;
+    animation-delay: 1.4s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes percent1{
+    from{color: rgba(50, 65, 88, 0);}
+    to{color: rgba(240, 248, 255, 1.0);}
+}
+
+@keyframes percent2{
+    from{color: rgba(50, 65, 88, 0);}
+    to{color: rgba(240, 248, 255, 1.0);}
+}
+
+@keyframes percent3{
+    from{color: rgba(50, 65, 88, 0);}
+    to{color: rgba(240, 248, 255, 1.0);}
+}
+
+@keyframes percent4{
+    from{color: rgba(50, 65, 88, 0);}
+    to{color: rgba(240, 248, 255, 1.0);}
+}
+
+@keyframes percent5{
+    from{color: rgba(50, 65, 88, 0);}
+    to{color: rgba(240, 248, 255, 1.0);}
+}
+
+@media (max-width : 1160px){
+    .bartitle{
+        top: -20px;
+        left: 0;
+    }
+    .bartitle > div{
+        text-align: left;
+    }
+
+    .barpercent{
+        right: 0;
+    }
+
+    @keyframes progressbar1{
+        /*width 500px = 100%*/
+        from{width: 0; }
+        to{width: 495px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar2{
+        from{width: 0; }
+        to{width: 450px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar3{
+        from{width: 0; }
+        to{width: 250px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar4{
+        from{width: 0; }
+        to{width: 400px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar5{
+        from{width: 0; }
+        to{width: 400px; background-color: rgb(0, 214, 70);}
+    }
+}
+
+@media (max-width : 580px){
+    .progressbar{
+        width: 400px;
+    }
+    .skills > h3{
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+    .skills > p{
+        font-size: 21px;
+        letter-spacing: 0.5px;
+    }
+
+    .bartitle{
+        top: -20px;
+        left: 0;
+    }
+    .bartitle > div{
+        text-align: left;
+    }
+
+    .barpercent{
+        right: 0;
+    }
+
+    @keyframes progressbar1{
+        /*width 300px = 100%*/
+        from{width: 0; }
+        to{width: 297px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar2{
+        from{width: 0; }
+        to{width: 270px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar3{
+        from{width: 0; }
+        to{width: 150px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar4{
+        from{width: 0; }
+        to{width: 240px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar5{
+        from{width: 0; }
+        to{width: 240px; background-color: rgb(0, 214, 70);}
+    }
+}
+
+@media (max-width : 455px){
+    .progressbar{
+        width: 290px;
+    }
+    .skills > h3{
+        font-size: 35px;
+        letter-spacing: 3px;
+    }
+    .skills > p{
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+
+    .bartitle{
+        top: -20px;
+        left: 0;
+        font-size: 15px;
+    }
+    .bartitle > div{
+        text-align: left;
+    }
+
+    .barpercent{
+        right: 0;
+    }
+
+    @keyframes progressbar1{
+        /*width 250px = 100%*/
+        from{width: 0; }
+        to{width: 247.5px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar2{
+        from{width: 0; }
+        to{width: 225px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar3{
+        from{width: 0; }
+        to{width: 125px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar4{
+        from{width: 0; }
+        to{width: 200px; background-color: rgb(0, 214, 70);}
+    }
+    
+    @keyframes progressbar5{
+        from{width: 0; }
+        to{width: 200px; background-color: rgb(0, 214, 70);}
+    }
+}
